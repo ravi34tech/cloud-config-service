@@ -1,0 +1,13 @@
+https://www.baeldung.com/spring-cloud-configuration
+
+ The Git-backed configuration API provided by our server can be queried using the following paths:
+
+/{application}/{profile}[/{label}]
+/{application}-{profile}.yml
+/{label}/{application}-{profile}.yml
+/{application}-{profile}.properties
+/{label}/{application}-{profile}.properties
+
+The {label} placeholder refers to a Git branch, {application} to the client's application name, and the {profile} to the client's current active application profile.
+
+
